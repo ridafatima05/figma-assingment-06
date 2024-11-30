@@ -21,7 +21,7 @@ const Testimonials = () => {
               <div className="ml-7">
                 <div className="mt-8">
                   <Image
-                    src={"/Images/Stars.png"}
+                    src={"/images/Stars.png"}
                     alt="Stars pic"
                     width={116}
                     height={18}
@@ -42,7 +42,7 @@ const Testimonials = () => {
 
               <div className="w-[254px] h-[56px] flex flex-row ml-8 mb-24">
                 <Image
-                  src={"/Images/girl2.png"}
+                  src={"/images/girl2.png"}
                   alt="person-img"
                   width={56}
                   height={56}
@@ -62,7 +62,7 @@ const Testimonials = () => {
               <div className="ml-7">
                 <div className="mt-8">
                   <Image
-                    src={"/Images/Stars.png"}
+                    src={"/images/Stars.png"}
                     alt="Stars pic"
                     width={116}
                     height={18}
@@ -83,7 +83,7 @@ const Testimonials = () => {
 
               <div className="w-[254px] h-[56px] flex flex-row ml-8 mb-24">
                 <Image
-                  src={"/Images/boy1.png"}
+                  src={"/images/boy1.png"}
                   alt="person-img"
                   width={56}
                   height={56}
@@ -125,7 +125,7 @@ const Testimonials = () => {
 
               <div className="w-[254px] h-[56px] flex flex-row ml-8 mb-24">
                 <Image
-                  src={"/Images/girl3.png"}
+                  src={"/images/girl3.png"}
                   alt="person-img"
                   width={56}
                   height={56}
