@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const About = () => {
   return (
-<div className="w-[428px] h-[1705px] flex flex-col justify-center items-center lg:h-auto lg:w-[1280px] bg-[#F7F7F7] lg:flex lg:justify-center lg:items-center lg:py-10">
+<div className="w-[428px] h-[1705px] flex flex-col justify-center items-center lg:ml-5 lg:h-auto lg:w-[1280px] bg-[#F7F7F7] lg:flex lg:justify-center lg:items-center lg:py-10">
       <div className="text-center max-w-screen-lg w-full px-6">
         <h1 className="text-4xl font-bold">Our Team</h1>
         <p className="text-sm mt-4">

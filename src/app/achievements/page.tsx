@@ -5,7 +5,7 @@ const Achievements = () => {
     <div className="lg:w-[1280px] lg:h-[488px] w-[428px] h-[390px] bg-[#FFFFFF]">
       <div>
         {/**first center div */}
-        <div className="lg:w-[1152px] lg:h-[264px] lg:mb-24 w-[380px] h-[355px] lg:ml-20 lg:flex lg:flex-col lg:justify-center text-center items-center lg:items-center">
+        <div className="lg:w-[1152px] lg:h-[264px] lg:mb-24 w-[380px] h-[355px] lg:ml-20 ml-6 lg:flex lg:flex-col lg:justify-center text-center items-center lg:items-center">
           <h1 className="sm:w-[380px] sm:h-[42px] font-bold text-4xl leading-[57.6px] mt-20 text-center custom-heading">
             Our Achievements
           </h1>

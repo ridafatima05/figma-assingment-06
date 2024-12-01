@@ -4,7 +4,7 @@ import React from 'react'
 const CourseCategory = () => {
   return (
     <div className="w-full lg:w-[1280px] lg:h-auto h-auto lg:flex lg:flex-col flex flex-col px-4 lg:justify-between">
-      <div className="lg:flex lg:flex-col lg:justify-center lg:items-center lg:mt-20">
+      <div className="lg:flex lg:flex-col lg:justify-center justify-center items-center lg:items-center lg:mt-20">
         {/* Top Section */}
         <div className="w-full lg:w-[768px] h-auto lg:h-[109px] flex flex-col items-center">
           <h1 className="text-3xl font-bold mt-6 text-center w-full lg:w-[768px]">
@@ -16,7 +16,7 @@ const CourseCategory = () => {
         </div>
 
         {/* Grid Section for Course Boxes */}
-        <div className="mt-11 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
+        <div className="mt-11 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full lg:ml-0 ml-3">
           {/* 1st Box */}
           <div className="flex flex-row w-full h-[120px] bg-[#F7F7F7] p-4 rounded-md">
             <div className="flex items-center justify-center mt-5 w-[50px] h-[50px] bg-[#FFFFFF] mr-4">
