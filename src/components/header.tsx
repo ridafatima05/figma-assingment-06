@@ -147,13 +147,13 @@ const Header: React.FC = () => {
               <Link href="/services" onClick={() => { scrollToSection("services"); setIsMenuOpen(false); }}>Services</Link>
             </li>
             <li>
-              <Link href="/achievements" onClick={() => { scrollToSection("achievements"); setIsMenuOpen(false); }}>Achievement</Link>
+              <Link href="/achievements" onClick={() => { scrollToSection("achievements"); setIsMenuOpen(false); }}>Achievements</Link>
             </li>
             <li>
               <Link href="/about" onClick={() => { scrollToSection("about"); setIsMenuOpen(false); }}>About Us</Link>
             </li>
             <li>
-              <Link href="/testimonial" onClick={() => { scrollToSection("testimonial"); setIsMenuOpen(false); }}>Testimonial</Link>
+              <Link href="/testimonials" onClick={() => { scrollToSection("testimonials"); setIsMenuOpen(false); }}>Testimonials</Link>
             </li>
           </ul>
         </div>
