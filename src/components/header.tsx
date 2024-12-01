@@ -50,13 +50,13 @@ const Header: React.FC = () => {
               <Link href="/services" onClick={() => scrollToSection("services")}>Services</Link>
             </li>
             <li className="hover:text-[#10F2C5]">
-              <Link href="/achievements" onClick={() => scrollToSection("achievements")}>Achievement</Link>
+              <Link href="/achievements" onClick={() => scrollToSection("achievements")}>Achievements</Link>
             </li>
             <li className="hover:text-[#10F2C5]">
               <Link href="/about" onClick={() => scrollToSection("about")}>About Us</Link>
             </li>
             <li className="hover:text-[#10F2C5]">
-              <Link href="/testimonial" onClick={() => scrollToSection("testimonial")}>Testimonial</Link>
+              <Link href="/testimonials" onClick={() => scrollToSection("testimonials")}>Testimonials</Link>
             </li>
           </ul>
 
