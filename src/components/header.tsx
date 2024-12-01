@@ -1,20 +1,19 @@
-"use client"; // Ensure it's a client-side component
+"use client"; 
 
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 const Header: React.FC = () => {
-  // State to toggle the mobile menu
+  
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
-  // Function to toggle the mobile menu visibility
   const toggleMenu = () => {
-    setIsMenuOpen(prev => !prev);
-    console.log("Menu toggled:", !isMenuOpen); // Debugging: Check state change
+    setIsMenuOpen((prev) => !prev);
+    console.log("Menu toggled:", !isMenuOpen); 
   };
 
-  // Function to scroll smoothly to a section
+  
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -23,7 +22,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-row lg:w-[1280px] lg:h-[72px] w-full h-[72px] bg-[#F7F7F7] lg:flex lg:items-center justify-between sm:px-7 lg:px-16 relative">
+    <div className="flex flex-row lg:w-[1280px] lg:h-[72px] w-[428px] h-[72px] bg-[#F7F7F7] lg:flex lg:items-center justify-between sm:px-7 lg:px-16 relative">
       <div className="w-[380px] h-[48px] lg:w-[1152px] lg:h-[44px] items-center justify-between flex">
         {/* Left side div (logo) */}
         <div className="lg:flex lg:items-center lg:space-x-2 lg:ml-10 items-center flex ml-2">
@@ -76,7 +75,7 @@ const Header: React.FC = () => {
         <div className="sm:hidden flex items-center">
           <button onClick={toggleMenu} className="text-black">
             {isMenuOpen ? (
-              // Close Icon (X)
+              // Close Icon (X) for mobile
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -115,6 +114,28 @@ const Header: React.FC = () => {
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="sm:hidden flex flex-col items-center bg-white w-full fixed top-[72px] left-0 py-4 space-y-4 z-50">
+          {/* Close Icon inside Mobile Menu */}
+          <button
+            onClick={toggleMenu}
+            className="absolute top-4 right-4 text-black"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+
+          {/* Navigation Links inside Mobile Menu */}
           <ul className="space-y-4 text-lg">
             <li>
               <Link href="/" onClick={() => { scrollToSection("home"); setIsMenuOpen(false); }}>Home</Link>
